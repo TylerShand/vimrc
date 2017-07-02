@@ -4,6 +4,9 @@ set foldmethod=marker
 set foldlevelstart=0
 
 " Status Line
+
+set laststatus=2
+
 set statusline=%.20F            " file PATH
 set statusline+=\ -\            " Seporator
 set statusline+=FileType:       " Label
@@ -89,7 +92,7 @@ let g:syntastic_check_on_wq = 0
 
 " Custom Keyboard Mappings -------------------------------- {{{
 
-nnoremap <C-f> :NERDTreeToggle<CR>
+" nnoremap <C-f> :NERDTreeToggle<CR>
 
 nnoremap <C-h> :tabp<CR>
 nnoremap <C-l> :tabn<CR>
